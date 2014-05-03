@@ -89,7 +89,7 @@ require([
       object.traverse(function (child) {
         if (child instanceof THREE.Mesh) {
           child.material.map = texture
-          child.material.wireframe = true
+          // child.material.wireframe = true
         }
       })
 
