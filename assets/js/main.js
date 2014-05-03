@@ -54,7 +54,7 @@ require([
     ambient          = new THREE.AmbientLight(0x101030)
     directionalLight = new THREE.DirectionalLight(0xffeedd)
 
-    directionalLight.position.set(0, 0, 1)
+    directionalLight.position.set(0, 2, 2)
 
     scene.add(ambient)
     scene.add(directionalLight)
@@ -65,6 +65,10 @@ require([
 
     manager.onProgress = function (item, loaded, total) {
       // console.log(item, loaded, total)
+    }
+
+    manager.onLoad = function () {
+      document.querySelectorAll('.loading-state')[0].classList.add('hidden')
     }
 
     // == Texture

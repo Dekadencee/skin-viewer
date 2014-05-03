@@ -2,3 +2,16 @@ body {
   background: url('../img/background.png') #fff;
   overflow: hidden;
 }
+
+.loading-state {
+  background: url('../img/ajax-loader.gif') no-repeat center center #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
