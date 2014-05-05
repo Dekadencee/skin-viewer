@@ -12,8 +12,6 @@ define([
 
   };
 
-  console.log(OBJLoader)
-
   OBJLoader.prototype = {
 
     constructor: OBJLoader,

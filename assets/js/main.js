@@ -1,138 +1,73 @@
 require.config({
   paths: {
-    modernizr: '../libs/modernizr/2.8.0/modernizr.min',
-    text:      '../libs/require-text/2.0.10/text',
-    stats:     '../libs/stats/r11/stats.min',
-    three:     '../libs/three/r67/three.min'
+    dat:        '../libs/dat-gui/0.5/dat.gui.min',
+    modernizr:  '../libs/modernizr/2.8.0/modernizr.min',
+    text:       '../libs/require-text/2.0.10/text',
+    stats:      '../libs/stats/r11/stats.min',
+    three:      '../libs/three/r67/three.min',
+    underscore: '../libs/underscore/1.6.0/underscore.min'
   },
   shim: {
+    dat: {
+      exports: 'dat'
+    },
     stats: {
       exports: 'Stats'
     },
     three: {
       exports: 'THREE'
+    },
+    underscore: {
+      exports: '_'
     }
   }
 })
 
 require([
-  'three',
-  './loaders/objloader',
-  './controls/orbitcontrols'
-], function (THREE, OBJLoader, OrbitControls) {
+  'viewer',
+  'dat'
+], function (SkinViewer, dat) {
 
-  var container, stats
-  var camera, controls, scene, renderer
-  var ambient, directionalLight
-  var mouseX = 0, mouseY = 0
+  var viewer, gui
 
-  var windowHalfX = window.innerWidth / 2
-  var windowHalfY = window.innerHeight / 2
+  // == Stub Data
 
-  function init () {
-    container = document.createElement('div')
-    document.body.appendChild(container)
-
-    // == Camera
-
-    camera = new THREE.PerspectiveCamera(100, window.innerWidth / window.innerHeight, 1, 2000)
-    camera.position.z = 100
-
-    // == Controls
-
-    controls = new OrbitControls(camera)
-
-    controls.addEventListener('change', render)
-
-
-    // == Scene
-
-    scene = new THREE.Scene()
-
-    // == Lighting
-
-    ambient          = new THREE.AmbientLight(0x101030)
-    directionalLight = new THREE.DirectionalLight(0xffeedd)
-
-    directionalLight.position.set(0, 2, 2)
-
-    scene.add(ambient)
-    scene.add(directionalLight)
-
-    // == Loading Manager
-
-    var manager = new THREE.LoadingManager()
-
-    manager.onProgress = function (item, loaded, total) {
-      // console.log(item, loaded, total)
-    }
-
-    manager.onLoad = function () {
-      document.querySelectorAll('.loading-state')[0].classList.add('hidden')
-    }
-
-    // == Texture
-
-    var texture = new THREE.Texture()
-    var loader  = new THREE.ImageLoader(manager)
-
-    loader.load('assets/models/ahri/ahri_base.jpg', function (image) {
-      texture.image       = image
-      texture.needsUpdate = true
-    })
-
-    // == Model
-
-    var loader = new OBJLoader(manager)
-
-    loader.load('assets/models/ahri/ahri.obj', function (object) {
-      object.traverse(function (child) {
-        if (child instanceof THREE.Mesh) {
-          child.material.map = texture
-          // child.material.wireframe = true
-        }
-      })
-
-      object.position.y = -80
-
-      scene.add(object)
-    })
-
-    // == Renderer
-
-    renderer = new THREE.WebGLRenderer({
-      alpha: true
-    })
-
-    renderer.setSize(window.innerWidth, window.innerHeight)
-    container.appendChild(renderer.domElement)
-
-    // == Events
-
-    window.addEventListener('resize', onWindowResize, false)
-
+  var stubs = {
+    'texture':   true,
+    'wireframe': false,
+    'champion':  'ahri'
   }
 
-  function onWindowResize() {
-    windowHalfX = window.innerWidth / 2
-    windowHalfY = window.innerHeight / 2
+  // == Viewer
 
-    camera.aspect = window.innerWidth / window.innerHeight
-    camera.updateProjectionMatrix();
+  viewer = new SkinViewer()
 
-    renderer.setSize(window.innerWidth, window.innerHeight)
-  }
+  // == Gui
 
-  function animate () {
-    requestAnimationFrame(animate)
-    render()
-  }
+  gui = new dat.GUI()
 
-  function render() {
-    renderer.render(scene, camera)
-  }
+  // texture
+  gui.add(stubs, 'texture').onChange(function () {
+    viewer.options.texture = stubs.texture
+    viewer.setModel(viewer.options.model)
+  })
 
-  init()
-  animate()
+  // wireframe
+  gui.add(stubs, 'wireframe').onChange(function () {
+    viewer.options.wireframe = stubs.wireframe
+    viewer.setModel(viewer.options.model)
+  })
+
+  // champion model
+  gui.add(stubs, 'champion', [
+    'ahri',
+    'sona'
+  ]).onChange(function (model) {
+    viewer.setModel(model)
+  })
+
+  // == Initialize
+
+  viewer.animate()
 
 })
