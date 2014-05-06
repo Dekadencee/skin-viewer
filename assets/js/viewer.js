@@ -77,6 +77,11 @@ define([
       })
 
       this.renderer.setSize(window.innerWidth, window.innerHeight)
+
+      this.renderer.shadowMapEnabled = true
+      this.renderer.shadowMapSoft = true;
+
+      // Allow it to exist in the dom
       this.container.appendChild(this.renderer.domElement)
 
       // == Listeners
@@ -105,10 +110,14 @@ define([
       this.lighting.ambient     = new THREE.AmbientLight(0x101030)
       this.lighting.directional = new THREE.DirectionalLight(0xffeedd)
 
-      this.lighting.directional.position.set(0, 2, 2)
+      this.lighting.directional.position.set(0, 5, 10)
 
       this.scene.add(this.lighting.ambient)
       this.scene.add(this.lighting.directional)
+
+      // == Shadows
+
+      this.lighting.directional.castShadow = true
 
       // == Texture
 
@@ -129,6 +138,8 @@ define([
       this.loader.load('assets/models/' + this.options.model + '/' + this.options.model + '.obj', function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
+            child.castShadow = true
+
             if (self.options.texture === true) {
               child.material.map = texture
             }
@@ -143,6 +154,21 @@ define([
 
         self.scene.add(object)
       })
+
+      // == Simple Ground
+
+      var groundGeometry = new THREE.PlaneGeometry(500, 500, 1, 1);
+
+      ground = new THREE.Mesh(groundGeometry, new THREE.MeshLambertMaterial({
+        color: 0xffffff,
+        side: THREE.DoubleSide
+      }))
+
+      ground.position.y    = -80
+      ground.rotation.x    = - Math.PI / 2
+      ground.receiveShadow = true
+
+      this.scene.add(ground);
     },
 
     clearScene: function () {
