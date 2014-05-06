@@ -1,208 +1,222 @@
 define([
   'underscore',
   'three',
-  './loaders/objloader',
-  './controls/orbitcontrols'
-], function (_, THREE, OBJLoader, OrbitControls) {
+  './controls/orbit',
+  './loaders/obj'
+], function (_, THREE, OrbitControls, OBJLoader) {
 
   var defaultOptions = {
-    assets:    'assets/models',
-    wireframe: false,
-    texture:   true,
-    model:     'ahri'
   }
 
   var Viewer = function (options) {
+    if (!(this instanceof Viewer)) {
+      return new Viewer(options)
+    }
+
     this.options = _.extend(defaultOptions, options)
     this.initialize()
   }
 
   Viewer.prototype = {
 
-    // constructor
     constructor: Viewer,
 
-    // Null values
-    container:   null,
-    camera:      null,
-    controls:    null,
-    scene:       null,
-    lighting:    [],
-    manager:     null,
-    loader:      null,
-    renderer:    null,
-
-    initialize: function () {
-      var self = this
-
-      this.container = document.createElement('div')
-      document.body.appendChild(this.container)
-
-      // == Camera
-
-      this.camera = new THREE.PerspectiveCamera(80, window.innerWidth / window.innerHeight, 1, 2000)
-      this.camera.position.z = 100
-
-      // == Scene
-
-      this.scene = new THREE.Scene()
-
-      // == Loading Manager
-
-      this.manager = new THREE.LoadingManager()
-
-      this.manager.onProgress = function (item, loaded, total) {
-        console.log(item, loaded, total)
-      }
-
-      this.manager.onLoad = function () {
-        document.querySelectorAll('.loading-state')[0].classList.add('hidden')
-      }
-
-      // == Render the initial model
-
-      this.setModel(this.options.model)
-
-      // == Controls
-
-      this.controls = new OrbitControls(this.camera, this.container)
-      this.controls.addEventListener('change', function () {
-        self.render()
-      })
-
-      // == Renderer
-
-      this.renderer = new THREE.WebGLRenderer({
-        alpha: true
-      })
-
-      this.renderer.setSize(window.innerWidth, window.innerHeight)
-
-      this.renderer.shadowMapEnabled = true
-      this.renderer.shadowMapSoft = true;
-
-      // Allow it to exist in the dom
-      this.container.appendChild(this.renderer.domElement)
-
-      // == Listeners
-
-      window.addEventListener('resize', function () {
-        self.onWindowResize()
-      }, false)
-
+    data: {
+      manager: null,
+      scene: null,
+      camera: null,
+      controls: null,
+      renderer: null,
+      animateCallbacks: []
     },
 
-    setModel: function (model) {
-      var self = this
+    loader: null,
 
-      this.clearScene()
+    initialize: function () {
+      var viewer = this
 
-      if (model !== this.options.model) {
-        this.options.model = model
-      }
+      // Container
+      // ---------
 
-      // == Loading
+      viewer.el = document.createElement('div')
+      document.body.appendChild(viewer.el)
 
-      document.querySelectorAll('.loading-state')[0].classList.remove('hidden')
+      // Loader
+      // ------
 
-      // == Lighting
+      viewer.data.manager = new THREE.LoadingManager()
 
-      this.lighting.ambient     = new THREE.AmbientLight(0x101030)
-      this.lighting.directional = new THREE.DirectionalLight(0xffeedd)
+      viewer.data.manager.onProgress = function (item, loaded, total) { console.log(item, loaded, total) }
+      viewer.data.manager.onLoad     = function () { }
 
-      this.lighting.directional.position.set(0, 5, 10)
+      // Scene
+      // -----
 
-      this.scene.add(this.lighting.ambient)
-      this.scene.add(this.lighting.directional)
+      viewer.data.scene    = new THREE.Scene()
 
-      // == Shadows
+      // Camera
+      // ------
 
-      this.lighting.directional.castShadow = true
+      viewer.data.camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 1, 2000)
+      viewer.data.camera.position.x = -300
+      viewer.data.camera.position.y = 300
+      viewer.data.camera.position.z = 500
 
-      // == Texture
+      // Controls
+      // --------
 
-      if (this.options.texture === true) {
-        var texture = new THREE.Texture()
-        var loader  = new THREE.ImageLoader(this.manager)
+      viewer.data.controls = new OrbitControls(viewer.data.camera, viewer.el)
+      viewer.data.controls.addEventListener('change', function () {
+        viewer.render()
+      })
 
-        loader.load('assets/models/' + this.options.model + '/' + this.options.model + '.jpg', function (image) {
-          texture.image       = image
-          texture.needsUpdate = true
-        })
-      }
+      // Renderer
+      // --------
 
-      // == Model
+      viewer.data.renderer = new THREE.WebGLRenderer({ alpha: true })
 
-      this.loader = new THREE.OBJLoader(this.manager)
+      viewer.data.renderer.setClearColor(0)
+      viewer.data.renderer.shadowMapEnabled = true
+      viewer.data.renderer.shadowMapSoft = true;
 
-      this.loader.load('assets/models/' + this.options.model + '/' + this.options.model + '.obj', function (object) {
+      viewer.el.appendChild(viewer.data.renderer.domElement)
+
+      // Resize Listener
+      // ---------------
+
+      viewer.resize() && window.addEventListener('resize', function () {
+        viewer.resize()
+      })
+
+      // Rendering
+      // -------------------
+
+      viewer.addLight()
+      viewer.addGround()
+      viewer.addChampion('Ahri')
+    },
+
+    addLight: function () {
+      var directional, ambient
+
+      directional = new THREE.DirectionalLight(16777215, 0.5)
+      ambient     = new THREE.AmbientLight(16777215)
+      point       = new THREE.PointLight(16777215)
+
+      directional.position.set(50, 50, 50)
+      directional.castShadow = true
+
+      point.position.set(30, 30, 1)
+      point.intensity  = 1
+      point.castShadow = true
+      point.shadowCameraVisible = true
+
+      this.data.scene.add(directional)
+      this.data.scene.add(ambient)
+      this.data.scene.add(point)
+
+      return this
+    },
+
+    addGround: function () {
+      var loader, texture, material, geometry, mesh
+      var viewer = this
+
+      loader  = new THREE.ImageLoader(viewer.manager)
+      texture = new THREE.Texture()
+
+      loader.load('assets/textures/ground/grass.jpg', function (image) {
+        texture.image       = image
+        texture.needsUpdate = true
+
+        material = new THREE.MeshPhongMaterial({ color: 16777215, specular: 1118481, side: THREE.DoubleSide })
+        geometry = new THREE.PlaneGeometry(500, 500, 1, 1)
+        mesh     = new THREE.Mesh(geometry, material)
+
+        material.map = texture
+
+        texture.wrapS      = THREE.RepeatWrapping
+        texture.wrapT      = THREE.RepeatWrapping
+        texture.anisotropy = 16
+        texture.repeat.set(5, 5)
+
+        mesh.position.y    = 0
+        mesh.rotation.x    = - Math.PI / 2
+        mesh.receiveShadow = true
+
+        viewer.data.scene.add(mesh)
+      })
+
+      return this
+    },
+
+    addChampion: function (champion) {
+      var imageLoader, objLoader, texture
+      var viewer = this
+
+      texture   = new THREE.Texture()
+      imgLoader = new THREE.ImageLoader(viewer.manager)
+      objLoader = new OBJLoader(viewer.manager)
+
+      imgLoader.load('assets/textures/champions/' + champion + '.jpg', function (image) {
+        texture.image      = image
+        texture.needsUpdate = true
+      })
+
+      objLoader.load('assets/models/champions/' + champion + '.obj', function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
-            child.castShadow = true
-
-            if (self.options.texture === true) {
-              child.material.map = texture
-            }
-
-            if (self.options.wireframe === true) {
-              child.material.wireframe = true
-            }
+            child.material.map       = texture
+            //child.material.wireframe = true
+            child.castShadow         = true
           }
         })
 
-        object.position.y = -80
+        object.position.y = 0
+        object.position.x = 0
+        object.position.z = 0
 
-        self.scene.add(object)
+        object.scale.set(1, 1, 1)
+
+        viewer.data.scene.add(object)
       })
 
-      // == Simple Ground
-
-      var groundGeometry = new THREE.PlaneGeometry(500, 500, 1, 1);
-
-      ground = new THREE.Mesh(groundGeometry, new THREE.MeshLambertMaterial({
-        color: 0xffffff,
-        side: THREE.DoubleSide
-      }))
-
-      ground.position.y    = -80
-      ground.rotation.x    = - Math.PI / 2
-      ground.receiveShadow = true
-
-      this.scene.add(ground);
+      return this
     },
 
-    clearScene: function () {
-      var self = this
-
-      _.each(_.rest(this.scene.children, 1), function (object) {
-        self.scene.remove(object)
-      })
-    },
-
-    onWindowResize: function () {
-      windowHalfX = window.innerWidth / 2
-      windowHalfY = window.innerHeight / 2
-
-      this.camera.aspect = window.innerWidth / window.innerHeight
-      this.camera.updateProjectionMatrix();
-
-      this.renderer.setSize(window.innerWidth, window.innerHeight)
+    resize: function () {
+      this.data.camera.aspect = window.innerWidth / window.innerHeight
+      this.data.camera.updateProjectionMatrix()
+      this.data.renderer.setSize(window.innerWidth, window.innerHeight)
+      return this
     },
 
     render: function () {
-      this.renderer.render(this.scene, this.camera)
+      this.data.renderer.render(this.data.scene, this.data.camera)
+      return this
     },
 
     animate: function () {
-      var self = this
+      var viewer = this
 
-      requestAnimationFrame(function () { self.animate() })
-      this.render()
+      // viewer.data.stats.begin()
+
+      requestAnimationFrame(function () {
+        return viewer.animate()
+      })
+
+      _.each(viewer.data.animateCallbacks, function (callback) {
+        callback.call(viewer)
+      })
+
+      viewer.render()
+
+      // viewer.data.stats.end()
+
+      return this
     }
 
   }
-
-  // == Export
 
   return Viewer
 

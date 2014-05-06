@@ -1,0 +1,792 @@
+{
+"Ahri" : [
+	["Ahri.obj", "Ahri_base_TX_CM.jpg", "Ahri"],
+	["Ahri_hanbok.obj", "Ahri_hanbok_TX_CM.jpg", "Hanbok Ahri"],
+	["Ahri_shadowfox.obj", "Ahri_shadowFox_TX_CM.jpg", "Shadow Fox Ahri"],
+	["Ahri_fire.obj", "Ahri_fire_TX_CM.jpg", "Foxfire Ahri"]
+],
+"Akali" : [
+	["Akali.obj", "akali.jpg", "Akali"],
+	["Akali.obj", "Akali_Red_TX_CM.jpg", "Crimson Akali"],
+	["Akali.obj", "Akali_Yellow_TX_CM.jpg", "Stinger Akali"],
+	["Akali_soccer.obj", "Akali_Soccer_TX_CM.jpg", "All-Star Akali"],
+	["Akali_nurse.obj", "akali_nurse_TX_CM.jpg", "Nurse Akali"],
+	["Akali_oni.obj", "akali_oni_TX_CM.jpg", "Blood Moon Akali"],
+	["Akali_mercenary.obj", "Akali_mercenary_TX_CM.jpg", "Silverfang Akali"]
+],
+"Alistar" : [
+	["alistar.obj", "Minotaur_Diffuse.jpg", "Alistar"],
+	["alistar.obj", "Minotaur2Black_Diffuse.jpg", "Black Alistar"],
+	["alistar.obj", "Minotaur_golden_Diffuse.jpg", "Golden Alistar"],
+	["Alistar_Matador.obj", "Alistar_Matador.jpg", "Matador Alistar"],
+	["Alistar_cowboy.obj", "alistar_cowboy_TX_CM.jpg", "Longhorn Alistar"],
+	["alistar_blue.obj", "alistar_blue_TX_CM.jpg", "Unchained Alistar"],
+	["alistar_armored.obj", "alistar_armored_TX_CM.jpg", "Infernal Alistar"]
+],
+"Amumu" : [
+	["Amumu.obj", "SadMummy.jpg", "Amumu"],
+	["Amumu_Pharaoh.obj", "Amumu_Pharaoh.jpg", "Pharaoh Amumu"],
+	["Amumu_Olympic.obj", "Amumu_Olympic.jpg", "Vancouver Amumu"],
+	["amumu_emo.obj", "amumu_emo_TX_CM.jpg", "Emumu"],
+	["amumu_regift.obj", "amumu_gift_TX_CM.jpg", "Re-Gifted Amumu"],
+	["amumu_prom.obj", "amumu_prom_TX_CM.jpg", "Almost Prom King Amumu"],
+	["amumu_knight.obj", "amumu_knight_TX_CM.jpg", "Little Knight Amumu"],
+	["amumu_badrobot.obj", "amumu_badrobot_TX_CM.jpg", "Sad Robot Amumu"]
+],
+"Anivia" : [
+	["Anivia.obj", "Cryophoenix.jpg", "Anivia", 1.3],
+	["anivia_teamspirit.obj", "anivia_teamspirit_TX_CM.jpg", "Team Spirit Anivia", 1.3],
+	["Anivia.obj", "Anivia_BaldEagle_TX_CM.jpg", "Bird of Prey Anivia", 1.3],
+	["anivia_battlearmor.obj", "anivia_battlearmor_TX_CM.jpg", "Noxious Hunter Anivia", 1.3],
+	["anivia_hextech.obj", "anivia_hextech_TX_CM.jpg", "Hextech Anivia", 1.3]
+],
+"Annie" : [
+	[["Annie.obj", "Annie.jpg", "Annie"], ["bear.obj", "HogyoBear.jpg", "", 1.5]],
+	[["Annie.obj", "Annie2Black_Diffuse.jpg", "Goth Annie"], ["bear.obj", "HogyoBear.jpg", "", 1.5]],
+	[["Annie_littleRed.obj", "Annie_littleRed.jpg", "Red Riding Annie"], ["bear.obj", "HogyoBear.jpg", "", 1.5]],
+	[["annie_wonderland.obj", "annie_wonderland_TX_CM.jpg", "Annie in Wonderland"], ["tibbers_PET_wonderland.obj", "tibbers_PET_wonderland_TX_CM.jpg", "", 1.5]],
+	[["Annie_prom.obj", "annie_prom_TX_CM.jpg", "Prom Queen Annie"], ["tibbers_PET_prom.obj", "tibbers_PET_prom_TX_CM.jpg", "", 1.5]],
+	[["Annie_freljord.obj", "Annie_freljord_TX_CM.jpg", "Frostfire Annie"], ["tibbers_PET_freljord.obj", "tibbers_PET_freljord_TX_CM.jpg", "", 1.5]],
+	[["annie_reverse.obj", "annie_reverse_TX_CM.jpg", "Reverse Annie"], ["tibbers_PET_reverse.obj", "tibbers_PET_reverse_TX_CM.jpg", "", 1.5]],
+	[["annie_frankenstein.obj", "annie_frankenstein_TX_CM.jpg", "FrankenTibbers Annie"], ["tibbers_PET_frankenstein.obj", "annie_tibbers_PET_frankenstein_TX_CM.jpg", "", 1.5]],
+	[["Annie_Panda.obj", "Annie_Panda_CM.jpg", "Panda Annie"], ["AnnieTibbers_Panda.obj", "Tibbers_Panda_CM.jpg"]]
+],
+"Ashe" : [
+	["Ashe.obj", "ashe_base_2011_TX_CM.jpg", "Ashe"],
+	["Ashe.obj", "ashe_freljord_2012_TX_CM.jpg", "Freljord Ashe"],
+	["Ashe.obj", "ashe_sherwoodforest_2012_TX_CM.jpg", "Sherwood Forest Ashe"],
+	["Ashe_Woadleader.obj", "ashe_woadleader_2012_TX_CM.jpg", "Woad Ashe"],
+	["Ashe_queen.obj", "ashe_queen_2012_TX_CM.jpg", "Queen Ashe"],
+	["Ashe_Crystal.obj", "ashe_crystal_TX_CM.jpg", "Amethyst Ashe"]
+],
+"Blitzcrank" : [
+	["blitzcrank.obj", "steamGolem.jpg", "Blitzcrank"],
+	["blitzcrank.obj", "Blitzcrank_Rusty_TX_CM.jpg", "Rusty Blitzcrank"],
+	["Blitzcrank_Soccer.obj", "blitzcrank_soccer_TX_CM.jpg", "Goalkeeper Blitzcrank"],
+	["blitzcrank_boxer.obj", "blitzcrank_boxer_TX_CM.jpg", "Boom Boom Blitzcrank"],
+	["blitzcrank_custom.obj", "blitzcrank_custom_TX_CM.jpg", "Piltover Customs Blitzcrank"],
+	["blitzcrank_incognito.obj", "blitzcrank_incognito_TX_CM.jpg", "Definitely Not Blitzcrank"],
+	["blitzcrank_i.obj", "blitzcrank_i_TX_CM.jpg", "iBlitzcrank"]
+],
+"Brand" : [
+	["Brand.obj", "brand_base_TX_CM.jpg", "Brand"],
+	["brand_gasmask.obj", "brand_gasmask_TX_CM.jpg", "Apocalyptic Brand"],
+	["Brand_Vandals.obj", "brand_vandals_TX_CM.jpg", "Vandal Brand"],
+	["Brand_frostfire.obj", "brand_frostfire_TX_CM.jpg", "Cryocore Brand"],
+	["Brand_zombie.obj", "brand_zombie_TX_CM.jpg", "Zombie Brand"]
+],
+"Caitlyn" : [
+	["Caitlyn.obj", "caitlyn_base_TX_CM_v01.jpg", "Caitlyn"],
+	["Caitlyn_sheriff.obj", "caitlyn_sheriff_TX_CM.jpg", "Sheriff Caitlyn"],
+	["Caitlyn_military.obj", "caitlyn_military_TX_CM.jpg", "Resistance Caitlyn"],
+	["Caitlyn_safari.obj", "caitlyn_safari_TX_CM.jpg", "Safari Caitlyn"],
+	["Caitlyn_northernfront.obj", "caitlyn_northernfront_TX_CM.jpg", "Arctic Warfare Caitlyn"],
+	["Caitlyn_cop.obj", "caitlyn_cop_TX_CM.jpg", "Officer Caitlyn"]
+],
+"Cassiopeia" : [
+	["Cassiopeia.obj", "cassiopeia_base_TX_CM.jpg", "Cassiopeia"],
+	["Cassiopeia_rattlesnake.obj", "cassiopeia_rattlesnake_TX_CM.jpg", "Desperada Cassiopeia"],
+	["Cassiopeia_seasnake.obj", "cassiopeia_seasnake_TM_CM.jpg", "Siren Cassiopeia"],
+	["Cassiopeia_greek.obj", "cassiopeia_greek_TX_CM.jpg", "Mythic Cassiopeia"],
+	["Cassiopeia_LunarRevel.obj", "cassiopeia_lunarrevel_TX_CM.jpg", "Jade Fang Cassiopeia"]
+],
+"Cho'Gath" : [
+	["Chogath.obj", "GreenTerror.jpg", "Cho'Gath", 0.6],
+	["Chogath.obj", "GreenTerror_alt.jpg", "Nightmare Cho'Gath", 0.6],
+	["Chogath_Dandy.obj", "Chogath_Dandy_TX_CM.jpg", "Gentleman Cho'Gath", 0.6],
+	["Chogath_abyss.obj", "chogath_abyss_TX_CM.jpg", "Loch Ness Cho'Gath", 0.6],
+	["Chogath_dinosaur.obj", "chogath_dinosaur_TX_CM.jpg", "Jurassic Cho'Gath", 0.6],
+	["chogath_battlecast.obj", "chogath_battlecast_TX_CM.jpg", "Battlecast Cho'Gath", 0.6]
+],
+"Corki" : [
+	["Corki.obj", "corki.jpg", "Corki", 0.6],
+	["Corki_UFO.obj", "Corki_ufo_TX_CM.jpg", "UFO Corki", 0.6],
+	["corki_icetoboggan.obj", "corki_icetoboggan_TX_CM.jpg", "Ice Toboggan Corki", 0.6],
+	["corki_RedBaron.obj", "corki_RedBaron.jpg", "Red Baron Corki", 0.6],
+	["Corki_hotrod.obj", "corki_hotrod_TX_CM.jpg", "Hot Rod Corki", 0.6],
+	["Corki_urfrider.obj", "corki_urfrider_TX_CM.jpg", "Urfrider Corki", 0.6],
+	["Corki_Fireworks.obj", "corki_fireworks_TX_CM.jpg", "Dragonwing Corki", 0.6]
+],
+"Darius" : [
+	["Darius.obj", "darius_base_TX_CM.jpg", "Darius"],
+	["Darius_Emperor.obj", "darius_emperor_TX_CM.jpg", "Lord Darius"],
+	["Darius_norseKing.obj", "Darius_NorseKing_TX_CM.jpg", "Norse King Darius"]
+],
+"Diana" : [
+	["Diana.obj", "Diana_base_TX_CM.jpg", "Diana"],
+	["diana_dark_valkyrie.obj", "Diana_dark_valkyrie_TX_CM.jpg", "Dark Valkyrie Diana"]
+],
+"Draven" : [
+	["draven.obj", "Draven_base_TX_CM.jpg", "Draven"],
+	["draven_soulreaper.obj", "Draven_soul_reaper_TX_CM.jpg", "Soul Reaver Draven"],
+	["Draven_Gladiator.obj", "draven_gladiator_TX_CM.jpg", "Gladiator Draven"]
+],
+"Dr. Mundo" : [
+	["DrMundo.obj", "DrMundo.jpg", "Dr. Mundo"],
+	["DrMundo.obj", "ToxicDrMundo.jpg", "Toxic Dr. Mundo"],
+	["DrMundo_mundoverse.obj", "DrMundo_mundoverse_TX_CM.jpg", "Mr. Mundoverse"],
+	["drmundo_corporate.obj", "drmundo_corporate_TX_CM.jpg", "Corporate Mundo"],
+	["DrMundo_mundo.obj", "drmundo_mundo_TX_CM.jpg", "Mundo Mundo"],
+	["DrMundo_executioner.obj", "drMundo_executioner_TX_CM.jpg", "Executioner Mundo"],
+	["drmundo_orc.obj", "drmundo_orc_TX_CM.jpg", "Rageborn Mundo"]
+],
+"Elise": [
+	[["Elise.obj", "Elise_base_Proxy_TX_CM.jpg", "Elise"], ["Elise_spider.obj", "EliseSpider_base_TX_CM.jpg"]],
+	[["Elise.obj", "Elise_base_Proxy_TX_CM.jpg", "Elise"], ["Elise_spider.obj", "EliseSpider_base_TX_CM.jpg"]]
+],
+"Evelynn" : [
+	["Evelynn.obj", "evelynn_base_TX_CM.jpg", "Evelynn"],
+	["Evelynn.obj", "Evelynn_Alt.jpg", "Shadow Evelynn"],
+	["Evelynn.obj", "Evelynn_Catsuit_TX_CM.jpg", "Masquerade Evelynn"],
+	["Evelynn_tango.obj", "evelynn_tango_TX_CM_v01.jpg", "Tango Evelynn"]
+],
+"Ezreal" : [
+	["Ezreal.obj", "Ezreal_ProdigalExplorer.jpg", "Ezreal"],
+	["Ezreal.obj", "Ezreal_Nottingham.jpg", "Nottingham Ezreal"],
+	["Ezreal_Soccer.obj", "Ezreal_Soccer_TX_CM.jpg", "Striker Ezreal"],
+	["Ezreal.obj", "ezreal_whitehair_TX_CM.jpg", "Frosted Ezreal"],
+	["Ezreal_explorer.obj", "ezreal_explorer_TX_CM.jpg", "Explorer Ezreal"],
+	["Ezreal_cyber.obj", "ezreal_cyber_TX_CM.jpg", "Pulse Fire Ezreal 1"],
+	["ezreal_cyber1.obj", "ezreal_cyber1_TX_CM.jpg", "Pulse Fire Ezreal 2"],
+	["ezreal_cyber2.obj", "ezreal_cyber2_TX_CM.jpg", "Pulse Fire Ezreal 3"],
+	["ezreal_cyber3.obj", "ezreal_cyber3_TX_CM.jpg", "Pulse Fire Ezreal 4"]
+],
+"Fiddlesticks" : [
+	["FiddleSticks.obj", "Fiddlesticks_Clr.jpg", "Fiddlesticks"],
+	["FiddleSticks.obj", "FiddlesticksGhost.jpg", "Spectral Fiddlesticks"],
+	["FiddleSticks.obj", "Fiddlesticks_british.jpg", "Union Jack Fiddlesticks"],
+	["fiddlesticks_bandito.obj", "fiddlesticks_bandito_TX_CM.jpg", "Bandito Fiddlesticks"],
+	["fiddlesticks_halloween.obj", "fiddlesticks_halloween_TX_CM.jpg", "Pumpkinhead Fiddlesticks"],
+	["fiddlesticks_pirate.obj", "fiddlesticks_pirate_TX_CM.jpg", "Fiddle Me Timbers"],
+	["fiddlesticks_surpriseparty.obj", "fiddlesticks_surpriseparty_TX_CM.jpg", "Surprise Party Fiddlesticks"],
+	["fiddlesticks_candycane.obj", "fiddlesticks_candycane_TX_CM.jpg", "Dark Candy Fiddlesticks"]
+],
+"Fiora" : [
+	["Fiora.obj", "fiora_base_TX_CM.jpg", "Fiora"],
+	["fiora_musketeer.obj", "fiora_musketeer_TX_CM.jpg", "Royal Guard Fiora"],
+	["fiora_zorro.obj", "fiora_zorro_TX_CM.jpg", "Nightraven Fiora"],
+	["fiora_schoolteacher.obj", "fiora_schoolteacher_TX_CM.jpg", "Headmistress Fiora"]
+],
+"Fizz" : [
+	[["Fizz.obj", "fizz_base_TX_CM.jpg", "Fizz"], ["FizzShark.obj", "fizz_shark_base_TX_CM.jpg", "", 0.4]],
+	[["Fizz_atlantean.obj", "fizz_atlantean_TX_CM.jpg", "Atlantean Fizz"], ["FizzShark_atlantean.obj", "FizzShark_atlantean_TX_CM.jpg", "", 0.4]],
+	[["Fizz_arctic.obj", "fizz_arctic_TX_CM.jpg", "Arctic Fizz"], ["FizzShark_arctic.obj", "FizzShark_arctic_TX_CM.jpg", "", 0.4]],
+	[["fizz_fisherman.obj", "fizz_fisherman_TX_CM.jpg", "Fisherman Fizz"], ["fizzshark_fisherman.obj", "fizzshark_fisherman_TX_CM.jpg", "", 0.3]]
+],
+"Galio" : [
+	["galio.obj", "galio_base_TX_CM.jpg", "Galio"],
+	["galio.obj", "galio_enchanted_TX_CM.jpg", "Enchanted Galio"],
+	["galio_hextech.obj", "galio_hextech_TX_CM.jpg", "Hextech Galio"],
+	["galio_commando.obj", "galio_commando_TX_CM.jpg", "Commando Galio"],
+	["galio_gatekeeper.obj", "galio_gatekeeper_TX_CM.jpg", "Gatekeeper Galio"]
+],
+"Gangplank" : [
+	["Gangplank_2011.obj", "gangplank_base_2011_TX_CM.jpg", "Gangplank"],
+	["Gangplank_2011.obj", "gangplank_ghost_2011_TX_CM.jpg", "Spooky Gangplank"],
+	["Gangplank_minuteman.obj", "gangplank_minuteman_TX_CM.jpg", "Minuteman Gangplank"],
+	["Gangplank_Sailor.obj", "gangplank_sailor_TX_CM.jpg", "Sailor Gangplank"],
+	["Gangplank_toysoldier.obj", "gangplank_toysoldier_TX_CM.jpg", "Toy Soldier Gangplank"],
+	["gangplank_special_forces.obj", "gangplank_special_forces_TX_CM.jpg", "Special Forces Gangplank"]
+],
+"Garen" : [
+	["Garen.obj", "GarenOrthograph_texture_v4.jpg", "Garen"],
+	["Garen.obj", "Garen_RedGoldArmor_TX_CM.jpg", "Sanguine Garen"],
+	["Garen.obj", "Garen_DTrooper_TX_CM.jpg", "Desert Trooper Garen"],
+	["garen_commando.obj", "garen_commando_TX_CM.jpg", "Commando Garen"],
+	["Garen_dreadknight.obj", "garen_dreadknight_TX_CM.jpg", "Dreadknight Garen"],
+	["Garen_ranger.obj", "garen_ranger_TX_CM.jpg", "Rugged Garen"],
+	["garen_steellegion.obj", "garen_steelLegion_TX_CM.jpg", "Steel Legion Garen"]
+],
+"Gragas" : [
+	["Gragas.obj", "gragas.jpg", "Gragas"],
+	["gragas_scuba.obj", "gragas_scuba.jpg", "Scuba Gragas"],
+	["gragas_HillBilly.obj", "Gragas_HillBilly_TX_CM.jpg", "Hilbilly Gragas"],
+	["Gragas_santa.obj", "gragas_santa_TX_CM.jpg", "Santa Gragas"],
+	["Gragas_classy.obj", "gragas_classy_TX_CM.jpg", "Gragas, Esq."],
+	["gragas_vandals.obj", "gragas_vandals_TX_CM.jpg", "Vandal Gragas"],
+	["gragas_oktoberfest.obj", "gragas_oktoberfest_TX_CM.jpg", "Oktoberfest Gragas"]
+],
+"Graves" : [
+	["Graves.obj", "Graves.jpg", "Graves"],
+	["Graves_mercenary.obj", "graves_mercenary_TX_CM.jpg", "Hired Gun Graves"],
+	["Graves_breakout.obj", "graves_breakout_TX_CM.jpg", "Jailbreak Graves"],
+	["graves_mafia.obj", "graves_mafia_TX_CM.jpg", "Mafia Graves"]
+],
+"Hecarim" : [
+	["Hecarim.obj", "Hecarim_base_TX_CM.jpg", "Hecarim"],
+	["Hecarim_medieval.obj", "Hecarim_medieval_knight_TX_CM.jpg", "Blood Knight Hecarim"],
+	["hecarim_shrouded_wraith.obj", "hecarim_shrouded_wraith_TX_CM.jpg", "Reaper Hecarim"],
+	["Hecarim_headless.obj", "hecarim_headless_TX_CM.jpg", "Headless Hecarim"]
+],
+"Heimerdinger" : [
+	[["Heimerdinger.obj", "Heimerdinger.jpg", "Heimerdinger"], ["HeimerdingerTurret.obj", "H28GEvolutionTurret.jpg"]],
+	[["Heimerdinger_Attacks.obj", "Heimerdinger_Attacks_TX_CM.jpg", "Alien Invader Heimerdinger"], ["HeimerdingerTurret_alien.obj", "heimerdinger_turret_TX_CM_yellow.jpg"]],
+	[["Heimerdinger_Failed.obj", "Heimerdinger_Failed_TX_CM.jpg", "Blast Zone Heimerdinger"], ["HeimerdingerTurret.obj", "H28GEvolutionTurret.jpg"]],
+	[["Heimerdinger_Mechanic.obj", "heimerdinger_mechanic_TX_CM.jpg", "Piltover Customs Heimerdinger"], ["HeimerdingerTurret_mechanic.obj", "heimerdinger_turret_mechanic_PET_yellow_TX_CM.jpg"]],
+	[["Heimerdinger_Snowman.obj", "heimerdinger_snowman_TX_CM.jpg", "Snowmerdinger"], ["HeimerdingerTurret_Snow.obj", "heimerdinger_turret_snow_PET_yellow_TX_CM.jpg"]]
+],
+"Irelia" : [
+	["Irelia.obj", "irelia_base_TX_CM.jpg", "Irelia"],
+	["Irelia_shadow.obj", "irelia_shadow_TX_CM.jpg", "Nightblade Irelia"],
+	["Irelia_pilot.obj", "irelia_pilot_TX_CM.jpg", "Aviator Irelia"],
+	["Irelia_cyberblade.obj", "irelia_cyberblade_TX_CM.jpg", "Infiltrator Irelia"],
+	["irelia_frost_blade.obj", "irelia_frost_blade_TX_CM.jpg", "Frostblade Irelia"]
+],
+"Janna" : [
+	["Janna.obj", "janna_base_TX_CM.jpg", "Janna"],
+	["Janna_lightning.obj", "janna_lightning_TX_CM.jpg", "Temptest Janna"],
+	["Janna_hextech.obj", "janna_hextech_TX_CM.jpg", "Hextech Janna"],
+	["Janna_frostqueen.obj", "janna_frostqueen_TX_CM.jpg", "Frost Queen Janna"],
+	["Janna_Warhero.obj", "janna_warhero_TX_CM.jpg", "Victorious Janna"]
+],
+"Jarvan IV" : [
+	["JarvanIV.obj", "jarvanIV_base_TX_CM.jpg", "Jarvan IV"],
+	["JarvanIV_commando.obj", "jarvan_commando_TX_CM.jpg", "Commando Jarvan"],
+	["JarvanIV_monsterhunter.obj", "jarvan_monsterhunter_TX_CM.jpg", "Dragon Slayer Jarvan"],
+	["JarvanIV_dragoon.obj", "jarvanIV_dragoon_TX_CM.jpg", "Darkforge Jarvan"],
+	["JarvanIV_warhero.obj", "jarvanIV_warhero_TX_CM.jpg", "Victorius Jarvan"],
+	["jarvanIV_lubu.obj", "jarvanIV_lubu_TX_CM.jpg", "Warring Kingdoms Jarvan"]
+],
+"Kha'Zix" : [
+	["Khazix_Base.obj", "khazix_base_CM_TX.jpg", "Kha'Zix"],
+	["Khazix_Droid.obj", "Khazix_droid_TX_CM.jpg", "Mecha Kha'Zix"]
+],
+"Jax" : [
+	["Jax.obj", "Armsmaster_Concept.jpg", "Jax", 1.2],
+	["Jax_hockeystick.obj", "Jax_hockeystick_TX_CM.jpg", "The Mighty Jax", 1.2],
+	["Jax_vandal.obj", "Jax_vandal_TX_CM.jpg", "Vandal Jax", 1.2],
+	["Jax_fisherman.obj", "Jax_fisherman_TX_CM.jpg", "Angler Jax", 1.2],
+	["jax_pax.obj", "jax_pax_TX_CM.jpg", "PAX Jax", 1.2],
+	["jax_jaximus.obj", "jax_jaximus_TX_CM.jpg", "Jaximus", 1.2],
+	["Jax_shaolin.obj", "jax_shaolin_TX_CM.jpg", "Temple Jax", 1.2],
+	["jax_immortal.obj", "jax_immortal_TX_CM.jpg", "Nemesis Jax", 1.2]
+],
+"Jayce" : [
+	["Jayce.obj", "Jayce_base_TX_CM.jpg", "Jayce"],
+	["Jayce_sentinel.obj", "Jayce_sentinel_TX_CM.jpg", "Full Metal Jayce"],
+	["Jayce_Gentleman.obj", "jayce_gentlemen_TX_CM.jpg", "Debonair Jayce"]
+],
+"Karma" : [
+	["Karma.obj", "karma_base_TX_CM.jpg", "Karma"],
+	["Karma_geisha.obj", "karma_geisha_TX_CM.jpg", "Sakura Karma"],
+	["Karma_sungoddess.obj", "karma_sungoddess_TX_CM.jpg", "Sun Goddess Karma"]
+],
+"Karthus" : [
+	["Karthus.obj", "Karthus.jpg", "Karthus"],
+	["Karthus_Phantom.obj", "Karthus_Phantom_TX_CM.jpg", "Phantom Karthus"],
+	["Karthus_Liberty.obj", "karthus_liberty_TX_CM.jpg", "Statue of Karthus"],
+	["karthus_grimreaper.obj", "karthus_grimreaper_TX_CM.jpg", "Grim Reaper Karthus"],
+	["Karthus_pentakill.obj", "karthus_pentakill_TX_CM.jpg", "Pentakill Karthus"]
+],
+"Kassadin" : [
+	["Kassadin.obj", "Kassadin.jpg", "Kassadin"],
+	["Kassadin.obj", "Kassadin_festival_TX_CM.jpg", "Festival Kassadin"],
+	["Kassadin_deep.obj", "kassadin_deep_TX_CM.jpg", "Deep One Kassadin"],
+	["kassadin_prevoid.obj", "kassadin_prevoid_TX_CM.jpg", "Pre-Void Kassadin"],
+	["kassadin_darkblade.obj", "kassadin_darkblade_TX_CM.jpg", "Harbinger Kassadin"]
+],
+"Katarina" : [
+	["katarina.obj", "katarina.jpg", "Katarina"],
+	["katarina.obj", "katarina_alt.jpg", "Mercenary Katarina"],
+	["Katarina_referee.obj", "Katarina_Referee_TX_CM.jpg", "Red Card Katarina"],
+	["katarina.obj", "katarina_pirate_TX_CM.jpg", "Bilgewater Katarina"],
+	["katarina_cat.obj", "katarina_cat_TX_CM.jpg", "Kitty Cat Katarina"],
+	["katarina_noxus.obj", "katarina_noxus_TX_CM.jpg", "High Command Katarina"],
+	["Katarina_desert.obj", "katarina_desert_TX_CM.jpg", "Sandstorm Katarina"],
+	["katarina_xmas.obj", "katarina_xmas_TX_CM.jpg", "Slay Belle Katarina"]
+],
+"Kayle" : [
+	["Kayle.obj", "kayle_base2011_TX_CM.jpg", "Kayle"],
+	["Kayle.obj", "kayle_silver2011_TX_CM.jpg", "Silver Kayle"],
+	["Kayle.obj", "kayle_viridian2011_TX_CM.jpg", "Viridian Kayle"],
+	["kayle_helmetless.obj", "kayle_helmetless2011_TX_CM.jpg", "Unmasked Kayle"],
+	["kayle_gunmetal.obj", "kayle_gunmetal_TX_CM.jpg", "Battleborn Kayle"],
+	["Kayle_Judgement.obj", "kayle_judgement_TX_CM.jpg", "Judgement Kayle"],
+	["kayle_metalwinged.obj", "kayle_metalwinged_TX_CM.jpg", "Aether Wing Kayle"]
+],
+"Kennen" : [
+	["Kennen.obj", "Kennen.jpg", "Kennen"],
+	["Kennen.obj", "Kennen_red.jpg", "Deadly Kennen"],
+	["Kennen.obj", "Kennen_blue.jpg", "Swamp Master Kennen"],
+	["Kennen_Karate.obj", "kennen_karate_TX_CM.jpg", "Karate Kennen"],
+	["Kennen_dr.obj", "kennen_dr_TX_CM.jpg", "Kennen M.D."],
+	["Kennen_arctic.obj", "kennen_arctic_TX_CM.jpg", "Arctic Ops Kennen"]
+],
+"Kog'Maw" : [
+	["KogMaw.obj", "KogMaw_TX_CM.jpg", "Kog'Maw", 0.6],
+	["KogMaw.obj", "kogmaw_catterpillar_TX_CM.jpg", "Caterpillar Kog'Maw", 0.6],
+	["KogMaw.obj", "kogmaw_poisonfrog_TX_CM.jpg", "Sonoran Kog'Maw", 0.6],
+	["KogMaw_butterfly.obj", "kogmaw_butterfly_TX_CM.jpg", "Monarch Kog'Maw", 0.6],
+	["KogMaw_reindeer.obj", "kogmaw_rudolph_TX_CM.jpg", "Reindeer Kog'Maw", 0.6],
+	["KogMaw_dragon.obj", "Kogmaw_Dragon_TX_CM.jpg", "Lion Dance Kog'Maw", 0.6],
+	["KogMaw_deepsea.obj", "kogmaw_deepsea_TX_CM.jpg", "Deep Sea Kog'Maw", 0.6],
+	["kogmaw_fossil.obj", "kogmaw_fossil_TX_CM.jpg", "JurassicKog'Maw", 0.6]
+],
+"LeBlanc" : [
+	["Leblanc.obj", "leblanc_base_TX_CM.jpg", "LeBlanc"],
+	["Leblanc_magician.obj", "leblanc_magician_TX_CM.jpg", "Prestigious LeBlanc"],
+	["Leblanc_white.obj", "leblanc_white_TX_CM.jpg", "Wicked LeBlanc"],
+	["Leblanc_winterbell.obj", "leblanc_winterbell_TX_CM.jpg", "Mistletoe LeBlanc"]
+],
+"Lee Sin" : [
+	["LeeSin.obj", "LeeSin_TX_CM.jpg", "Lee Sin", 1.4],
+	["LeeSin_classic.obj", "LeeSin_classic_TX_CM.jpg", "Traditional Lee Sin", 1.4],
+	["LeeSin_temple.obj", "LeeSin_temple_TX_CM.jpg", "Acolyte Lee Sin", 1.4],
+	["LeeSin_dragon.obj", "leesin_dragon_TX_CM.jpg", "Dragon Fist Lee Sin", 1.4],
+	["LeeSin_muayThai.obj", "LeeSin_muayThai_TX_CM.jpg", "Muay Thai Lee Sin", 1.4]
+],
+"Leona" : [
+	["leona.obj", "leona_base_TX_CM.jpg", "Leona"],
+	["leona_battleworn.obj", "leona_battleworn_TX_CM.jpg", "Defender Leona"],
+	["leona_phoenix.obj", "leona_phoenix_TX_CM.jpg", "Valkyrie Leona"],
+	["leona_ironsolari.obj", "leona_ironsolari_TX_CM.jpg", "Unknown Leona"]
+],
+"Lulu" : [
+	[["Lulu.obj", "Lulu_base_TX_CM.jpg", "Lulu"], ["Lulu_faerie.obj", "Lulu_base_TX_CM.jpg"], ["lulu_squill.obj", "lulu_base_squill_TX_CM.jpg"]],
+	[["Lulu_darkcandy.obj", "Lulu_DarkCandy_TX_CM.jpg", "Bittersweet Lulu"], ["Lulu_faerie_darkcandy.obj", "Lulu_DarkCandy_TX_CM.jpg"], ["lulu_cupcake.obj", "Lulu_base_cupcake_TX_CM.jpg"]],
+	[["Lulu_classic.obj", "Lulu_classic_TX_CM.jpg", "Wicked Lulu"], ["Lulu_Faerie_classic.obj", "Lulu_classic_TX_CM.jpg"], ["Lulu_kitty.obj", "Lulu_kitty_TX_CM.jpg"]],
+	[["Lulu_DragonTrainer.obj", "Lulu_DragonTrainer_TX_CM.jpg", "Dragon Trainer Lulu"], ["Lulu_faerie_DragonTrainer.obj", "Lulu_Faerie_DragonTrainer_TX_CM.jpg"], ["lulu_dragon.obj", "Lulu_Pet_Dragon_TX_CM.jpg"]]
+],
+"Lux" : [
+	["Lux.obj", "lux_base_CM_TX.jpg", "Lux", 1.3],
+	["lux_spellthief.obj", "lux_spellthief_TX_CM.jpg", "Spellthief Lux", 1.3],
+	["lux_witch.obj", "lux_witch_TX_CM.jpg", "Sorceress Lux", 1.3],
+	["Lux_commando.obj", "lux_commando_TX_CM.jpg", "Commando Lux", 1.3],
+	["Lux_Imperial.obj", "lux_Imperial_TX_CM.jpg", "Imperial Lux", 1.3],
+	["lux_steellegion.obj", "lux_steellegion_TX_CM.jpg", "Steel Legion Lux", 1.3]
+],
+"Malphite" : [
+	["malphite.obj", "malphite.jpg", "Malphite", 1.4],
+	["malphite.obj", "Malphite_Shamrock.jpg", "Shamrock Malphite", 1.4],
+	["malphite_reef.obj", "malphite_bildgewater_TX_CM.jpg", "Coral Reef Malphite", 1.4],
+	["malphite_rockmonster.obj", "Malphite_rockmonster_TX_CM.jpg", "Marble Malphite", 1.4],
+	["malphite_obsidian.obj", "malphite_obsidian_TX_CM.jpg", "Obsidian Malphite", 1.4],
+	["malphite_glacial.obj", "malphite_glacial_base_TX_CM.jpg", "Glacial Malphite", 1.4]
+],
+"Malzahar" : [
+	["Malzahar.obj", "Malzahar_TX_CM.jpg", "Malzahar"],
+	["Malzahar.obj", "MalZahar_Golden_TX_CM.jpg", "Shadow Prince Malzahar"],
+	["Malzahar.obj", "MalZahar_Red_TX_CM.jpg", "Vizier Malzahar"],
+	["Malzahar_genie.obj", "malzahar_genie_TX_CM.jpg", "Djinn Malzahar"],
+	["Malzahar_darkvoid.obj", "malzahar_darkvoid_TX_CM.jpg", "Overlord Malzahar"]
+],
+"Maokai" : [
+	["Maokai.obj", "maokai_base_TX_CM.jpg", "Maokai"],
+	["Maokai_totem.obj", "Maokai_totem_TX_CM.jpg", "Totemic Maokai"],
+	["Maokai_burnt.obj", "maokai_burnt_TX_CM.jpg", "Charred Maokai"],
+	["Maokai_christmas.obj", "maokai_christmas_TX_CM.jpg", "Festive Maokai"],
+	["Maokai_graveDigger.obj", "Maokai_graveDigger_TX_CM.jpg", "Haunted Maokai"]
+],
+"Master Yi" : [
+	["MasterYi.obj", "MasterYi.jpg", "Master Yi"],
+	["MasterYi.obj", "AssassinMasterYi.jpg", "Assassin Master Yi"],
+	["MasterYi_chosen.obj", "MasterYi_chosen_TX_CM.jpg", "Chosen Master Yi"],
+	["masteryi_ionian.obj", "masteryi_ionian_TX_CM.jpg", "Ionian Master Yi"],
+	["masteryi_samurai.obj", "masteryi_samurai_TX_CM.jpg", "Samurai Master Yi"],
+	["masteryi_tribal.obj", "masteryi_tribal_TX_CM.jpg", "Headhunter Yi"]
+],
+"Miss Fortune" : [
+	["MissFortune.obj", "missfortune_base_TX_CM.jpg", "Miss Fortune"],
+	["missfortune_cowgirl.obj", "missfortune_cowgirl_TX_CM.jpg", "Cowgirl Miss Fortune"],
+	["missfortune_waterloo.obj", "missfortune_waterloo_TX_CM.jpg", "Waterloo Miss Fortune"],
+	["missfortune_agent.obj", "missfortune_agent_TX_CM.jpg", "Secret Agent Miss Fortune"],
+	["missfortune_candycane.obj", "missfortune_candycane_TX_CM.jpg", "Candy Cane Miss Fortune"],
+	["missfortune_wasteland.obj", "missfortune_wasteland_TX_CM.jpg", "Road Warrior Miss Fortune"],
+	["missfortune_mafia.obj", "missfortune_mafia_TX_CM.jpg", "Mafia Miss Fortune"]
+],
+"Mordekaiser" : [
+	["Mordekaiser.obj", "Mordekaiser.jpg", "Mordekaiser"],
+	["Mordekaiser.obj", "Dragon_Knight_Mordekaiser.jpg", "Dragon Knight Mordekaiser"],
+	["Mordekaiser.obj", "Infernal_Mordekaiser.jpg", "Infernal Mordekaiser"],
+	["mordekaiser_metal.obj", "mordekaiser_metal_TX_CM.jpg", "Pentakill Mordekaiser"],
+	["mordekaiser_destroyer.obj", "mordekaiser_destroyer_TX_CM.jpg", "Lord Mordekaiser"]
+],
+"Morgana" : [
+	["Morgana.obj", "FallenAngel.jpg", "Morgana"],
+	["Morgana.obj", "Morgana_FallenAngel_TX_CM.jpg", "Exiled Morgana"],
+	["morgana_baker.obj", "morgana_baker_TX_CM.jpg", "Sinful Succulence Morgana"],
+	["morgana_blade.obj", "morgana_blade_TX_CM.jpg", "Blade Mistress Morgana"],
+	["morgana_blackthorn.obj", "morgana_blackthorn_TX_CM.jpg", "Black Thorn Morgana"]
+],
+"Nami" : [
+	["Nami.obj", "Nami_base_TX_CM.jpg", "Nami"]
+],
+"Nasus" : [
+	["Nasus.obj", "Nasus.jpg", "Nasus"],
+	["Nasus.obj", "Nasus_Silver_TX_CM.jpg", "Galactic Nasus"],
+	["Nasus_pharaoh.obj", "nasus_pharoah_TX_CM.jpg", "Pharaoh Nasus"],
+	["Nasus_dreadknight.obj", "nasus_dreadknight_TX_CM.jpg", "Dreadknight Nasus"],
+	["Nasus_riot.obj", "nasus_riot_TX_CM.jpg", "Riot K-9 Nasus"]
+],
+"Nautilus" : [
+	["nautilus.obj", "nautilus_base_TX_CM.jpg", "Nautilus"],
+	["nautilus.obj", "nautilus_base_angry_TX_CM.jpg", "Angry Nautilus"],
+	["nautilus_submarine.obj", "nautilus_submarine_TX_CM.jpg", "Abyssal Nautilus"],
+	["nautilus_subterranean.obj", "nautilus_subterranean_TX_CM.jpg", "Subterranean Nautilus"],
+	["nautilus_astronaut.obj", "nautilus_astronaut_TX_CM.jpg", "Astronaut Nautilus"]
+],
+"Nidalee" : [
+	[["nidalee2012.obj", "nidalee_base_2012_TX_CM.jpg", "Nidalee"],["Nidalee_Cougar.obj", "nidalee_base_cat_2012_TX_CM.jpg", "", 0.7]],
+	[["nidalee2012.obj", "nidalee_snowbunny_2012.jpg", "Snow Bunny Nidalee"],["Nidalee_cougar_snowbunny.obj", "Nidalee_cougar_Snowbunny_2012.jpg", "", 0.7]],
+	[["nidalee_leopard.obj", "nidalee_leopard_2012_TX_CM.jpg", "Leopard Nidalee"],["Nidalee_cougar_leopard.obj", "Nidalee_cougar_Leopard_2012.jpg", "", 0.7]],
+	[["Nidalee_frenchmaid.obj", "nidalee_frenchmaid_2012_TX_CM.jpg", "French Maid Nidalee"],["Nidalee_cougar_maid.obj", "Nidalee_cougar_Frenchmaid_2012.jpg", "", 0.7]],
+	[["Nidalee_cleo.obj", "nidalee_cleopatra_2012_TX_CM.jpg", "Pharaoh Nidalee"],["Nidalee_cougarcleo.obj", "Nidalee_cougar_cleopatra_2012.jpg", "", 0.7]],
+	[["Nidalee_witch.obj", "Nidalee_witch_2012_CM.jpg", "Bewitching Nidalee"],["Nidalee_Cougarwitch.obj", "Nidalee_cougar_witch_2012.jpg", "", 0.7]],
+	[["nidalee_headhunter.obj", "nidalee_headhunter_TX_CM.jpg", "Headhunter Nidalee"],["Nidalee_headhunter_cougar.obj", "Nidalee_cougar_headhunter_TX_CM.jpg", "", 0.7]]
+],
+"Nocturne" : [
+	["Nocturne.obj", "nocturne_base_TX_CM.jpg", "Nocturne"],
+	["Nocturne_frost.obj", "nocturne_frost_TX_CM.jpg", "Frozen Terror Nocturne"],
+	["Nocturne_void.obj", "nocturne_void_TX_CM.jpg", "Void Nocturne"],
+	["Nocturne_massacre.obj", "nocturne_massacre_TX_CM.jpg", "Ravager Nocturne"],
+	["Nocturne_ghost.obj", "nocturne_ghost_TX_CM.jpg", "Haunting Nocturne"],
+	["nocturne_cyber_templar.obj", "nocturne_cyber_templar_TX_CM.jpg", "Eternum Nocturne"]
+],
+"Nunu" : [
+	["Nunu.obj", "Yeti.jpg", "Nunu"],
+	["Nunu.obj", "Yeti_alt.jpg", "Sasquatch Nunu"],
+	["nunu_workshop.obj", "Yeti_workshop.jpg", "Workshop Nunu"],
+	["nunu_grungy.obj", "nunu_grungy_TX_CM.jpg", "Grungy Nunu"],
+	["nunu_bot.obj", "nunu_bot_TX_CM.jpg", "Nunu Bot"],
+	["nunu_battle.obj", "nunu_battle_TX_CM.jpg", "Demolisher Nunu"]
+],
+"Olaf" : [
+	["Olaf.obj", "Olaf.jpg", "Olaf"],
+	["Olaf.obj", "Olaf_Black_TX_CM.jpg", "Forsaken Olaf"],
+	["Olaf.obj", "Olaf_FrostGiant_TX_CM.jpg", "Glacial Olaf"],
+	["Olaf_bro.obj", "olaf_brolaff_TX_CM.jpg", "Brolaf"],
+	["olaf_pentakill.obj", "olaf_pentakill_TX_CM.jpg", "Pentakill Olaf"]
+],
+"Orianna" : [
+	["orianna.obj", "orianna_base_TX_CM.jpg", "Orianna"],
+	["orianna_goth.obj", "oriana_goth_TX_CM.jpg", "Gothic Orianna"],
+	["orianna_ragdoll.obj", "oriana_sewnchaos_TX_CM.jpg", "Sewn Chaos Orianna"],
+	["orianna_assassin.obj", "orianna_assassin_TX_CM.jpg", "Bladecraft Orianna"]
+],
+"Pantheon" : [
+	["Pantheon.obj", "pantheon.jpg", "Pantheon"],
+	["Pantheon.obj", "Golden_Pantheon.jpg", "Myrmidon Pantheon"],
+	["Pantheon_Ruthless.obj", "Pantheon_Ruthless.jpg", "Ruthless Pantheon"],
+	["Pantheon_Perseus.obj", "pantheon_perseus_TX_CM.jpg", "Perseus Pantheon"],
+	["Pantheon_Metal.obj", "Pantheon_metal_TX_CM.jpg", "Full Metal Pantheon"],
+	["pantheon_dacianknight.obj", "pantheon_dacianknight_TX_CM.jpg", "Dacian Knight Pantheon"]
+],
+"Poppy" : [
+	["Poppy.obj", "poppy.jpg", "Poppy"],
+	["Poppy.obj", "Noxus_Poppy.jpg", "Noxus Poppy"],
+	["Poppy_lolli.obj", "poppy_lolli_TX_CM.jpg", "Lollipoppy"],
+	["poppy_blacksmith.obj", "poppy_blacksmith_TX_CM.jpg", "Blacksmith Poppy"],
+	["Poppy_raggedy.obj", "poppy_raggedy_TX_CM.jpg", "Ragdoll Poppy"],
+	["poppy_regalknight.obj", "poppy_regalknight_TX_CM.jpg", "Battle Regalia Poppy"],
+	["poppy_redknight.obj", "poppy_red_knight_TX_CM.jpg", "Scarlet Hammer Poppy"]
+],
+"Quinn" : [
+	[["Quinn.obj", "Quinn_base_TX_CM.jpg", "Quinn"], ["QuinnValor.obj", "QuinnValor_base_TX_CM.jpg"]],
+	[["QuinnPhoenix.obj", "Quinn_Phoenix_CM.jpg", "Phoenix Quinn"], ["QuinnValorPhoenix.obj", "QuinnValor_phoenix_TX_CM.jpg"]]
+],
+"Rammus" : [
+	["Rammus.obj", "Armordillo.jpg", "Rammus", 1.4],
+	["Rammus.obj", "Armordillo_Alt.jpg", "King Rammus", 1.4],
+	["Rammus.obj", "Rammus_DarkMetal_CM_TX.jpg", "Chrome Rammus", 1.4],
+	["Rammus.obj", "Rammus_FieryMolten_TX_CM.jpg", "Molten Rammus", 1.4],
+	["rammus_frozen.obj", "Rammus_Frozen_TX_CM.jpg", "Freljord Rammus", 1.4],
+	["Rammus_ninja.obj", "rammus_ninja_TX_CM.jpg", "Ninja Rammus", 1.4],
+	["rammus_metal.obj", "rammus_metal_TX_CM_.jpg", "Full Metal Rammus", 1.4]
+],
+"Renekton" : [
+	["Renekton.obj", "renekton_base_TX_CM.jpg", "Renekton", 1.2],
+	["Renekton_downunder.obj", "renekton_downunder_TX_CM.jpg", "Outback Renekton", 1.2],
+	["Renekton_galactic.obj", "renekton_galactic_TX_CM.jpg", "Galactic Renekton", 1.2],
+	["Renekton_brutal.obj", "renekton_brutal_TX_CM.jpg", "Bloodfury Renekton", 1.2],
+	["renekton_runewars.obj", "renekton_rune_wars_TX_CM.jpg", "Rune Wars Renekton", 1.2],
+	["Renekton_VolcanoGod.obj", "renekton_volcanogod_TX_CM.jpg", "Volcano God Renekton", 1.2]
+],
+"Rengar" : [
+	["Rengar_Base.obj", "Rengar_base_TX_CM.jpg", "Rengar"],
+	["Rengar_Hunter.obj", "Rengar_Hunter_TX_CM.jpg", "Headhunter Rengar"]
+],
+"Riven" : [
+	["Riven.obj", "riven_base_TX_CM.jpg", "Riven", 1.2],
+	["riven_crimson.obj", "riven_crimson_TX_CM.jpg", "Crimson Elite Riven", 1.2],
+	["riven_redeemed.obj", "riven_redeemed_TX_CM.jpg", "Redeemed Riven", 1.2],
+	["riven_battlebunny.obj", "riven_battlebunny_TX_CM.jpg", "Battle Bunny Riven", 1.2],
+	["riven_season2.obj", "riven_season2_TX_CM.jpg", "Championship Riven", 1.2]
+],
+"Rumble" : [
+	["rumble.obj", "Rumble_base_TX_CM.jpg", "Rumble", 1.2],
+	["rumble_jungle.obj", "Rumble_inTheJungle_TX_CM.jpg", "Rumble in the Jungle", 1.2],
+	["rumble_bilgerat.obj", "rumble_bilgerat_TX_CM.jpg", "Bilgerat Rumble", 1.2]
+],
+"Ryze" : [
+	["Ryze.obj", "Ryze.jpg", "Ryze"],
+	["Ryze.obj", "Ryze2Human_Diffuse.jpg", "Human Ryze"],
+	["Ryze.obj", "Ryze_WarPaint_TX_CM.jpg", "Tribal Ryze"],
+	["Ryze_UncleSam.obj", "ryze_unclesam_TX_CM.jpg", "Uncle Ryze"],
+	["Ryze_trophy.obj", "ryze_trophy_TX_CM.jpg", "Trophy Ryze"],
+	["Ryze_scholar.obj", "ryze_scholar_TX_CM.jpg", "Professor Ryze"],
+	["Ryze_zombie.obj", "ryze_zombie_TX_CM.jpg", "Zombie Ryze"],
+	["Ryze_voidcrystal.obj", "ryze_voidcrystal_TX_CM.jpg", "Dark Crystal Ryze"],
+	["ryze_pirate.obj", "ryze_pirate_TX_CM.jpg", "Pirate Ryze"]
+],
+"Sejuani" : [
+	["Sejuani.obj", "sejuani_base_TX_CM.jpg", "Sejuani"],
+	["Sejuani_beastlord.obj", "sejuani_beastlord_TX_CM.jpg", "Sabretusk Sejuani"],
+	["Sejuani_deathknight.obj", "sejuani_death_knight_TX_CM.jpg", "Darkrider Sejuani"]
+],
+"Shaco" : [
+	["Shaco.obj", "Jester.jpg", "Shaco"],
+	["shaco_madhatter.obj", "Shaco_Hatter_TX_CM.jpg", "Mad Hatter Shaco"],
+	["shaco_yellow.obj", "shaco_yellow_TX_CM.jpg", "Royal Shaco"],
+	["Shaco_nutcracker.obj", "shaco_nutcracker_TX_CM_v01.jpg", "Nutcracko"],
+	["Shaco_clockwork.obj", "shaco_clockwork_TX_CM.jpg", "Workshop Shaco"],
+	["Shaco_asylum.obj", "shaco_asylum_TX_CM.jpg", "Asylum Shaco"],
+	["Shaco_Korean.obj", "Shaco_Korean_TX_CM.jpg", "Masked Shaco"]
+],
+"Shen" : [
+	["Shen.obj", "shen_tex_v4.jpg", "Shen"],
+	["Shen.obj", "shen_yellowjacket.jpg", "Yellow Jacket Shen"],
+	["Shen.obj", "shen_frozen.jpg", "Frozen Shen"],
+	["shen_surgeon.obj", "shen_surgeon_TX_CM.jpg", "Surgeon Shen"],
+	["Shen_oni.obj", "shen_oni_TX_CM.jpg", "Blood Moon Shen"],
+	["shen_samurai.obj", "shen_samurai_TX_CM.jpg", "Warlord Shen"]
+],
+"Shyvana" : [
+	[["Shyvana.obj", "shyvana_base_TX_CM.jpg", "Shyvana"], ["ShyvanaDragon.obj", "shyvana_base_dragon_TX_CM.jpg", "", 0.8]],
+	[["Shyvana_bone.obj", "shyvana_bone_TX_CM.jpg", "Boneclaw Shyvana"], ["ShyvanaBoneDragon.obj", "shyvana_bone_dragon_TX_CM.jpg", "", 0.8]],
+	[["Shyvana_knight.obj", "shyvana_knight_TX_CM.jpg", "Ironscale Shyvana"], ["ShyvanaKnightDragon.obj", "shyvana_knight_dragon_TX_CM.jpg", "", 0.8]],
+	[["shyvana_shadow.obj", "shyvana_shadow_TX_CM.jpg", "Darkflame Shyvana"], ["shyvana_shadow_dragon.obj", "shyvana_shadow_dragon_dark_TX_CM.jpg", "", 0.8]]
+],
+"Singed" : [
+	["Singed.obj", "ChemicalMan.jpg", "Singed"],
+	["singed_riot.obj", "chemicalman_riot_TX_CM.jpg", "Riot Squad Singed"],
+	["singed_hextech.obj", "singed_hextech_TX_CM.jpg", "Hextech Singed"],
+	["singed_surfer.obj", "singed_surfer_TX_CM.jpg", "Surfer Singed"],
+	["singed_madscientist.obj", "singed_madscientist_TX_CM.jpg", "Mad Scientist Singed"],
+	["singed_experiment.obj", "singed_experiment_TX_CM.jpg", "Augmented Singed"]
+],
+"Sion" : [
+	["Sion.obj", "Sion.jpg", "Sion", 1.2],
+	["Sion_hextech.obj", "Sion_hextech_TX_CM.jpg", "Hextech Sion", 1.2],
+	["Sion_barbarian.obj", "sion_barbarian_TX_CM.jpg", "Barbarian Sion", 1.2],
+	["Sion_lumberjack.obj", "sion_lumberJack_TX_CM.jpg", "Lumberjack Sion", 1.2],
+	["Sion_armored.obj", "sion_armored_TX_CM.jpg", "Warmonger Sion", 1.2]
+],
+"Sivir" : [
+	["Sivir.obj", "Sivir.jpg", "Sivir"],
+	["Sivir_warriorprincess.obj", "Sivir_warriorprincess_TX_CM.jpg", "Warrior Princess Sivir"],
+	["Sivir_spectacular.obj", "Sivir_spectacular_TX_CM.jpg", "Spectacular Sivir"],
+	["Sivir_aboriginal.obj", "sivir_aboriginal_TX_CM.jpg", "Huntress Sivir"],
+	["Sivir_frejlord.obj", "sivir_frejlord_TX_CM.jpg", "Bandit Sivir"],
+	["Sivir_pax.obj", "sivir_pax_TX_CM.jpg", "PAX Sivir"]
+],
+"Skarner" : [
+	["Skarner.obj", "Skarner_base_TX_CM.jpg", "Skarner"],
+	["Skarner_scorpion.obj", "Skarner_Scorpion_TX_CM.jpg", "Sandscourge Skarner"],
+	["Skarner_rune.obj", "Skarner_Rune_TX_CM.jpg", "Earthrune Skarner"]
+],
+"Sona" : [
+	["Sona.obj", "sona_base_TX_CM.jpg", "Sona"],
+	["Sona_muse.obj", "sona_muse_TX_CM.jpg", "Muse Sona"],
+	["Sona_metal.obj", "sona_metal_TX_CM.jpg", "Pentakill Sona"],
+	["Sona_silentnight.obj", "sona_silentnight_TX_CM.jpg", "Silent Night Sona"],
+	["Sona_guqin.obj", "sona_guqin_TX_CM.jpg", "Guqin Sona"],
+	["sona_pax.obj", "sona_pax_TX_CM.jpg", "Arcade Sona"]
+],
+"Soraka" : [
+	["Soraka.obj", "soraka_base_TX_CM.jpg", "Soraka"],
+	["Soraka_dryad.obj", "soraka_dryad_2012_TX_CM.jpg", "Dryad Soraka"],
+	["soraka_divine.obj", "soraka_divine_2012_TX_CM.jpg", "Divine Soraka"],
+	["soraka_cleric.obj", "soraka_cleric_TX_CM.jpg", "Celestine Soraka"]
+],
+"Swain" : [
+	[["Swain.obj", "swain_base_TX_CM.jpg", "Swain", 0.6], ["Swain_Raven.obj", "swain_demon_base_TX_CM.jpg", "", 0.6]],
+	[["Swain_north.obj", "swain_north_TX_CM.jpg", "Northern Front Swain", 0.6], ["Swain_Raven.obj", "swain_demon_north_TX_CM.jpg", "", 0.6]],
+	[["Swain_bilgewater.obj", "swain_bilgewater_TX_CM.jpg", "Bilgewater Swain", 0.6], ["Swain_Raven.obj", "swain_demon_bilgewater_TX_CM.jpg", "", 0.6]],
+	[["swain_grandadmiral.obj", "swain_grandadmiral_TX_CM.jpg", "Tyrant Swain", 0.6], ["Swain_demon_emperor.obj", "swain_demon_emperor_TX_CM.jpg", "", 0.6]]
+],
+"Syndra" : [
+	["Syndra.obj", "Syndra_base_TX_CM.jpg", "Syndra"],
+	["Syndra_Justicar.obj", "Syndra_Justicar_TX_CM.jpg", "Justicar Syndra"]
+],
+"Talon" : [
+	["Talon.obj", "talon_base_TX_CM.jpg", "Talon"],
+	["Talon_nemesis.obj", "talon_nemesis_TX_CM.jpg", "Crimson Elite Talon"],
+	["Talon_street.obj", "talon_street_TX_CM.jpg", "Renegade Talon"],
+	["Talon_silverdragon.obj", "talon_silverdragon_TX_CM.jpg", "Dragonblade Talon"]
+],
+"Taric" : [
+	["Taric.obj", "GemKnight.jpg", "Taric"],
+	["Taric.obj", "GemKnight_alt.jpg", "Taric (Unavailable?)"],
+	["Taric.obj", "GemKnight_emerald.jpg", "Emerald Taric"],
+	["Taric_fifthage.obj", "GemKnight_pink.jpg", "Armor of the Fifth Age Taric"],
+	["Taric_dreadknight.obj", "taric_dreadknight_TX_CM.jpg", "Bloodstone Taric"]
+],
+"Teemo" : [
+	[["Teemo.obj", "Teemo.jpg", "Teemo"], ["BantamTrap.obj", "MushroomPatch02.jpg"]],
+	[["teemo_astronaut.obj", "teemo_astronaut_TX_CM.jpg", "Astronaut Teemo"], ["SatelliteTrap.obj", "teemo_trap_astronaut_TX_CM.jpg"]],
+	[["Teemo.obj", "Teemo_badger.jpg", "Badger Teemo"], ["BantamTrap.obj", "MushroomPatch02.jpg"]],
+	[["Teemo_easterbunny.obj", "teemo_easterbunny_TX_CM.jpg", "Easter Bunny Teemo"], ["EasterTrap.obj", "trap_easterbunny_PET_TX_CM_v01.jpg"]],
+	[["teemo_happyelf.obj", "Teemo_happyelf.jpg", "Happy Elf Teemo"], ["BantamTrap.obj", "MushroomPatch02.jpg"]],
+	[["Teemo.obj", "Teemo_recon.jpg", "Recon Teemo"], ["BantamTrap.obj", "MushroomPatch02.jpg"]],
+	[["teemo_super.obj", "teemo_super_TX_CM.jpg", "Super Teemo"], ["SuperTrap.obj", "teemo_superhero_PET_TX_CM_v01.jpg"]],
+	[["teemo_panda.obj", "teemo_panda_TX_CM.jpg", "Panda Teemo"], ["teemo_panda_trap.obj", "teemo_panda_TX_CM.jpg"]]
+],
+"Thresh" : [
+	["Thresh.obj", "Thresh_Base_TX_CM.jpg", "Thresh", 0.8],
+	["Thresh_Undersea.obj", "Thresh_UnderSea_TX_CM.jpg", "Deep Terror Thresh", 0.8]
+],
+"Tristana" : [
+	["Tristana.obj", "Tristana.jpg", "Tristana"],
+	["Tristana.obj", "TristanaPink_Diffuse.jpg", "Riot Girl Tristana"],
+	["Tristana_earnestelf.obj", "Tristana_earnestelf.jpg", "Earnest Elf Tristana"],
+	["Tristana_firefighter.obj", "Tristana_Firefighter_TX_CM.jpg", "Firefighter Tristana"],
+	["tristana_machinegun.obj", "tristana_machinegun_TX_CM.jpg", "Guerilla Tristana"],
+	["tristana_scurvydog.obj", "tristana_scurvydog_TX_CM.jpg", "Buccaneer Tristana"],
+	["tristana_armcannon.obj", "tristana_armcannon_TX_CM.jpg", "Tristana (Unavailable?)"],
+	["tristana_rocket.obj", "tristana_Rocket_TX_CM.jpg", "Rocket Tristana"]
+],
+"Trundle" : [
+	["Trundle.obj", "Trundle_base_TX_CM.jpg", "Trundle"],
+	["Trundle_baseball.obj", "trundle_baseball_TX_CM.jpg", "Baseball Trundle"],
+	["Trundle_junkyard.obj", "trundle_junkyard_TX_CM.jpg", "Junkyard Trundle"]
+],
+"Tryndamere" : [
+	["Tryndamere.obj", "tryndamere_base2011_TX_CM.jpg", "Tryndamere"],
+	["Tryndamere_Demonsword.obj", "tryndamere_demonsword_TX_CM.jpg", "Demonsword Tryndamere"],
+	["Tryndamere_Highland.obj", "DarkChampion_Highland.jpg", "Highland Tryndamere"],
+	["Tryndamere_King.obj", "tryndamere_king_TX_CM_v01.jpg", "King Tryndamere"],
+	["Tryndamere_Viking.obj", "tryndamere_viking_TX_CM.jpg", "Viking Tryndamere"],
+	["tryndamere_sultan.obj", "tryndamere_sultan_TX_CM.jpg", "Sultan Tryndamere"]
+],
+"Twisted Fate" : [
+	["TwistedFate2012.obj", "Twistedfate_base_2012_CM.jpg", "Twisted Fate"],
+	["twistedfate_pax.obj", "twistedfate_pax_TX_CM.jpg", "PAX 2009 Twisted Fate"],
+	["twistedfate_jackofhearts.obj", "twistedfate_Jackofhearts_TX_CM.jpg", "Jack of Hearts"],
+	["TwistedFate_magnificent_2012.obj", "MagnificentTwistedfate_CM.jpg", "The Magnificent Twisted Fate"],
+	["twistedfate_tango.obj", "twistedfate_tango_TX_CM.jpg", "Tango Twisted Fate"],
+	["twistedfate_cowboy.obj", "twistedfate_highnoon_TX_CM.jpg", "High Noon Twisted Fate"],
+	["twistedfate_musketeer.obj", "twistedfate_musketeer_TX_CM.jpg", "Musketeer Twisted Fate"]
+],
+"Twitch" : [
+	["Twitch.obj", "twitch.jpg", "Twitch"],
+	["Twitch.obj", "twitch_kingpin_TX_CM.jpg", "Kingpin Twitch"],
+	["twitch_gangster.obj", "twitch_gangster_TX_CM.jpg", "Gangster Twitch"],
+	["twitch_medieval.obj", "twitch_medieval_TX_CM.jpg", "Medieval Twitch"],
+	["Twitch_punk.obj", "Twitch_Punk_TX_CM.jpg", "Punk Twitch"],
+	["twitch_exterminator.obj", "twitch_exterminator_TX_CM.jpg", "Exterminator Twitch"],
+	["Twitch.obj", "twitch_whistler_TX_CM.jpg", "German Twitch"]
+],
+"Udyr" : [
+	["Udyr.obj", "udyr.jpg", "Udyr", 0.8],
+	["Udyr.obj", "udyr_orange_gi_TX_CM.jpg", "Black Belt Udyr"],
+	["Udyr.obj", "udyr_red_karate_TX_CM.jpg", "Black Belt Udyr"],
+	[["Udyr_primal_bear.obj", "udyr_primal_bear_TX_CM.jpg", "Primal Udyr", 0.8], ["Udyr_primal_turtle.obj", "udyr_primal_turtle_TX_CM.jpg", "", 0.8], ["Udyr_primal_tiger.obj", "udyr_primal_tiger_TX_CM.jpg", "", 0.8], ["Udyr_primal_phoenix.obj", "udyr_primal_phoenix_TX_CM.jpg", "", 0.8]]
+],
+"Urgot" : [
+	["Urgot.obj", "urgot_base_TX_CM.jpg", "Urgot"],
+	["urgot_crab.obj", "urgot_crab_TX_CM.jpg", "Giant Enemy Grabgot"],
+	["urgot_butcher.obj", "urgot_butcher_TX_CM.jpg", "Butcher Urgot"],
+	["urgot_battlecast.obj", "urgot_battlecast_TX_CM.jpg", "Battlecast Urgot"]
+],
+"Varus" : [
+	["Varus.obj", "Varus_base_TX_CM.jpg", "Varus"],
+	["varus_dark_crystal.obj", "Varus_dark_crystal_TX_CM.jpg", "Dark Crystal Varus"],
+	["Varus_ascended.obj", "Varus_ascended_TX_CM.jpg", "Arclight Varus"]
+],
+"Vayne" : [
+	["Vayne.obj", "vayne_base_TX_CM.jpg", "Vayne"],
+	["Vayne_modern.obj", "vayne_modern_TX_CM.jpg", "Vindicator Vayne"],
+	["Vayne_victorian.obj", "vayne_victorian_TX_CM.jpg", "Aristocrat Vayne"],
+	["Vayne_dragon.obj", "vayne_dragon_TX_CM.jpg", "Dragoon Vayne"],
+	["Vayne_valentine.obj", "vayne_valentine_TX_CM.jpg", "Heartseeker Vayne"]
+],
+"Veigar" : [
+	["Veigar.obj", "Veigar_turnaround_b.jpg", "Veigar", 1.3],
+	["Veigar.obj", "RedVeigar.jpg", "White Mage Veigar", 1.3],
+	["Veigar_curling.obj", "Veigar_curling.jpg", "Curling Veigar", 1.3],
+	["veigar_thegrey.obj", "veigar_thegrey_TX_CM.jpg", "Veigar Greybeard", 1.3],
+	["Veigar_leprechaun.obj", "veigar_leprechaun_TX_CM.jpg", "Leprechaun Veigar", 1.3],
+	["Veigar_baron.obj", "veigar_baron_TX_CM.jpg", "Baron Von Veigar", 1.3],
+	["veigar_dapper.obj", "Veigar_dapper_TX_CM.jpg", "Superb Villain Veigar", 1.3],
+	["veigar_badSanta.obj", "Veigar_badSanta_TX_CM.jpg", "Bad Santa Veigar", 1.3]
+],
+"Vi" : [
+	["Vi.obj", "Vi_TX_CM.jpg", "Vi"],
+	["Vi_Racer.obj", "Vi_Racer_TX_CM.jpg", "Vi"]
+],
+"Viktor" : [
+	["Viktor.obj", "viktor_base_TX_CM.jpg", "Viktor"],
+	["Viktor_full_machine.obj", "viktor_full_machine_TX_CM.jpg", "Full Machine Viktor"],
+	["Viktor_prototype.obj", "viktor_prototype_TX_CM.jpg", "Prototype Viktor"]
+],
+"Vladimir" : [
+	["Vladimir.obj", "vladimir_base_TX_CM.jpg", "Vladimir"],
+	["Vladimir.obj", "vladimir_dracula_TX_CM.jpg", "Count Vladimir"],
+	["vladimir_auvergne.obj", "vladimir_auvergne_TX_CM.jpg", "Marquis Vladimir"],
+	["Vladimir_Nosferatu.obj", "vladimir_nosferatu_TX_CM.jpg", "Nosferatu Vladimir"],
+	["vladimir_biker.obj", "vladimir_biker_TX_CM.jpg", "Vandal Vladimir"],
+	["Vladimir_bloodking.obj", "vladimir_bloodking_TX_CM.jpg", "Blood Lord Vladimir"]
+],
+"Volibear" : [
+	["Volibear.obj", "volibear_base_TX_CM.jpg", "Volibear"],
+	["Volibear_king.obj", "volibear_lord_TX_CM.jpg", "Thunder Lord Volibear"],
+	["Volibear_arctic.obj", "volibear_artic_TX_CM.jpg", "Northern Storm Volibear"]
+],
+"Warwick" : [
+	["Warwick.obj", "Wolfman.jpg", "Warwick"],
+	["Warwick.obj", "Wolfman2White_Diffuse.jpg", "Grey Warwick"],
+	["warwick_Urf.obj", "warwick_Urf_TX_CM.jpg", "Urf the Manatee"],
+	["warwick_bigbad.obj", "warwick_bigbad_TX_CM.jpg", "Big Bad Warwick"],
+	["Warwick.obj", "warwick_tundra_TX_CM.jpg", "Tundra Hunter Warwick"],
+	["Warwick_Savage.obj", "warwick_savage_TX_CM.jpg", "Feral Warwick"],
+	["warwick_firewolf.obj", "warwick_firewolf_TX_CM.jpg", "Firefang Warwick"],
+	["warwick_hyena.obj", "warwick_hyena_TX_CM.jpg", "Hyena Warwick"]
+],
+"Wukong" : [
+	["MonkeyKing.obj", "monkeyking_base_TX_CM_v02.jpg", "Wukong"],
+	["MonkeyKing_fire.obj", "monkeyking_fire_TX_CM.jpg", "Volcanic Wukong"],
+	["MonkeyKing_lord.obj", "monkeyking_lord_TX_CM.jpg", "General Wukong"],
+	["MonkeyKing_dragon.obj", "monkeyking_dragon_TX_CM.jpg", "Jade Dragon Wukong"]
+],
+"Xerath" : [
+	["Xerath.obj", "xerath_base_TX_CM.jpg", "Xerath"],
+	["Xerath_Iron.obj", "Xerath_iron_TX_CM.jpg", "Battlecast Xerath"],
+	["Xerath_rune.obj", "xerath_rune_TX_CM.jpg", "Runeborn Xerath"],
+	["xerath_ironforge.obj", "xerath_ironforge_TX_CM.jpg", "Scorched Earth Xerath"]
+],
+"Xin Zhao" : [
+	["XinZhao.obj", "XenZhao_v2.jpg", "Xin Zhao"],
+	["xinzhao_commando.obj", "xenzhao_commando_TX_CM.jpg", "Commando Xin Zhao"],
+	["XinZhao.obj", "xenzhao_imperial_TX_CM.jpg", "Imperial Xin Zhao"],
+	["xinzhao_gladiator.obj", "xenzhao_gladiator_TX_CM.jpg", "Viscero Xin Zhao"],
+	["XinZhao_wingedhussar.obj", "xenzhao_wingedhussar_TX_CM.jpg", "Winged Hussar Xin Zhao"],
+	["XinZhao_zhaoyun.obj", "Xinzhao_zhaoyun_TX_CM.jpg", "Warring Kingdoms Xin Zhao"]
+],
+"Yorick" : [
+	["Yorick.obj", "yorick_base_CM_TX.jpg", "Yorick"],
+	["Yorick_Pentakill.obj", "Yorick_pentakill_TX_CM.jpg", "Pentakill Yorick"],
+	["Yorick_Undertaker.obj", "yorick_undertaker_TX_CM.jpg", "Undertaker Yorick"]
+],
+"Zed" : [
+	["Zed.obj", "Zed_base_TX_CM.jpg", "Zed"],
+	["Zed_StormNinja.obj", "Zed_stormNinja_TX_CM.jpg", "Shockblade Zed"]
+],
+"Zilean" : [
+	["Zilean.obj", "chronokeeper.jpg", "Zilean"],
+	["zilean_christmas.obj", "Chronokeeper_oldst.jpg", "Old Saint Zilean"],
+	["Zilean.obj", "zilean_hippie_TX_CM.jpg", "Groovy Zilean"],
+	["zilean_desert.obj", "zilean_desert _TX_CM.jpg", "Shurima Desert Zilean"],
+	["zilean_timemachine.obj", "zilean_timemachine_TX_CM.jpg", "Time Machine Zilean"]
+],
+"Ziggs" : [
+	["Ziggs.obj", "Ziggs_base_TX_CM.jpg", "Ziggs"],
+	["Ziggs_madscientist.obj", "Ziggs_mad_scientist_TX_CM.jpg", "Mad Scientist Ziggs"],
+	["ziggs_general.obj", "Ziggs_general_TX_CM.jpg", "Major Ziggs"],
+	["ziggs_pool_party.obj", "ziggs_pool_party_TX_CM.jpg", "Pool Party Ziggs"],
+	["ziggs_snowday.obj", "ziggs_snowday_TX_CM.jpg", "Snow Day Ziggs"]
+],
+"Zyra" : [
+	[["Zyra.obj", "Zyra_base_TX_CM.jpg", "Zyra"], ["Zyra_Plant_Ball.obj", "Zyra_Plants_base_TX_CM.jpg"], ["Zyra_Plant_Thorn.obj", "Zyra_Plants_base_TX_CM.jpg"], ["Zyra_Plant_Blossom.obj", "Zyra_Plants_base_TX_CM.jpg"]],
+	[["Zyra_hellvine.obj", "Zyra_hellvine_TX_CM.jpg", "Wildfire Zyra"], ["Zyra_Hellvine_Plant_Ball.obj", "Zyra_Plants_hellvine_TX_CM.jpg"], ["Zyra_HellvinePlant_Thorn.obj", "Zyra_Plants_hellvine_TX_CM.jpg"], ["Zyra_HellvinePlant_Blossom.obj", "Zyra_Plants_hellvine_TX_CM.jpg"]]
+]
+}

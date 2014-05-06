@@ -17,12 +17,14 @@ app.set('port', (process.env.PORT || 3000))
 
 // -- Middleware
 
-app.use(express.static(path.join(__dirname + '/public')))
-app.use('/assets', express.static(path.join(__dirname + '/assets')))
+// ...
 
 // == Routing
 
-// `null`
+app.use(express.static(path.join(__dirname + '/public')))
+
+app.use('/assets', express.static(path.join(__dirname + '/assets')))
+app.use('/api', express.static(path.join(__dirname + '/api')))
 
 // == HTTP Listener
 
