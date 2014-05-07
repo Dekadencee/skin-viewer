@@ -80,9 +80,10 @@ define([
       // Renderer
       // --------
 
-      viewer.data.renderer = new THREE.WebGLRenderer({ alpha: true })
+      viewer.data.renderer = new THREE.WebGLRenderer({
+        alpha: true
+      })
 
-      viewer.data.renderer.setClearColor(0)
       viewer.data.renderer.shadowMapEnabled = true
       viewer.data.renderer.shadowMapSoft = true;
 
