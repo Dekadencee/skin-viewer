@@ -69,14 +69,15 @@ require([
     controls.champion = names.slice(0).shift()
     controls.skin     = champions[controls.champion].slice(0).shift().name
 
-    // Load the skin initially.
-    fetchSkins()
-    loadChampion()
-
+    // Add the champion select box
     gui.add(controls, 'champion', names).onChange(function (champion) {
       fetchSkins()
       loadChampion()
     })
+
+    // Load the skin initially.
+    fetchSkins()
+    loadChampion()
 
     // stats positioning
     stats.domElement.style.position = 'absolute'
