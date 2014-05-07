@@ -28,9 +28,88 @@ require.config({
 })
 
 require([
+  'jquery',
+  'underscore',
+  'stats',
+  'dat',
+  './detector',
   './viewer'
-], function (Viewer) {
+], function ($, _, Stats, dat, Detector, Viewer) {
 
-  new Viewer().animate()
+  var viewer, stats, gui, skinController
+  var champions = {},
+      skins     = []
+
+  if (!Detector.webgl) {
+    Detector.addGetWebGLMessage()
+  }
+
+  // Display controls
+  var controls = {
+    champion: '',
+    skin: ''
+  }
+
+  // Retrieve champions
+  $.getJSON('/api/champions.json', function (json) {
+    champions = json
+    init()
+  })
+
+  stats  = new Stats()
+  gui    = new dat.GUI()
+  viewer = new Viewer({
+    stats: stats
+  })
+
+  function init () {
+    var names = _.keys(champions)
+
+    // Set the first champion, cause it needs to be set
+    controls.champion = names.slice(0).shift()
+    controls.skin     = champions[controls.champion].slice(0).shift().name
+
+    // Load the skin initially.
+    fetchSkins()
+    loadChampion()
+
+    gui.add(controls, 'champion', names).onChange(function (champion) {
+      fetchSkins()
+      loadChampion()
+    })
+
+    // stats positioning
+    stats.domElement.style.position = 'absolute'
+    stats.domElement.style.top      = '10px'
+    stats.domElement.style.left     = '10px'
+
+    document.body.appendChild(stats.domElement)
+
+    viewer.animate()
+  }
+
+  function loadChampion () {
+    viewer.clear()
+
+    _.each(champions[controls.champion], function (skin) {
+      if (skin.name === controls.skin) {
+        viewer.addChampion(skin.object, skin.texture, (skin.scale ? skin.scale : null))
+      }
+    })
+  }
+
+  function fetchSkins() {
+    skins = _.map(champions[controls.champion], function (value, key) {
+      return value.name
+    })
+
+    if (skinController) {
+      gui.remove(skinController)
+      skinController = null
+    }
+
+    skinController = gui.add(controls, 'skin', skins).onChange(loadChampion)
+    controls.skin  = skins.slice(0).shift()
+  }
 
 })

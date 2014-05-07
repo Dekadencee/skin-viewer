@@ -6,6 +6,10 @@ define([
 ], function (_, THREE, OrbitControls, OBJLoader) {
 
   var defaultOptions = {
+
+    // Stats object
+    stats: null,
+
   }
 
   var Viewer = function (options) {
@@ -60,7 +64,7 @@ define([
       viewer.data.camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 1, 2000)
       viewer.data.camera.position.x = -300
       viewer.data.camera.position.y = 300
-      viewer.data.camera.position.z = 500
+      viewer.data.camera.position.z = 900
 
       // Controls
       // --------
@@ -88,12 +92,6 @@ define([
         viewer.resize()
       })
 
-      // Rendering
-      // -------------------
-
-      viewer.addLight()
-      viewer.addGround()
-      viewer.addChampion('Ahri')
     },
 
     addLight: function () {
@@ -108,8 +106,6 @@ define([
 
       point.position.set(30, 30, 1)
       point.intensity  = 1
-      point.castShadow = true
-      point.shadowCameraVisible = true
 
       this.data.scene.add(directional)
       this.data.scene.add(ambient)
@@ -130,7 +126,7 @@ define([
         texture.needsUpdate = true
 
         material = new THREE.MeshPhongMaterial({ color: 16777215, specular: 1118481, side: THREE.DoubleSide })
-        geometry = new THREE.PlaneGeometry(500, 500, 1, 1)
+        geometry = new THREE.BoxGeometry(500, 500, 10)
         mesh     = new THREE.Mesh(geometry, material)
 
         material.map = texture
@@ -140,7 +136,7 @@ define([
         texture.anisotropy = 16
         texture.repeat.set(5, 5)
 
-        mesh.position.y    = 0
+        mesh.position.y    = -5
         mesh.rotation.x    = - Math.PI / 2
         mesh.receiveShadow = true
 
@@ -150,24 +146,31 @@ define([
       return this
     },
 
-    addChampion: function (champion) {
+    addChampion: function (champion, skin, scale) {
       var imageLoader, objLoader, texture
       var viewer = this
+
+      if (!scale) {
+        scale = 1
+      }
+
+      viewer.addLight()
+      viewer.addGround()
 
       texture   = new THREE.Texture()
       imgLoader = new THREE.ImageLoader(viewer.manager)
       objLoader = new OBJLoader(viewer.manager)
 
-      imgLoader.load('assets/textures/champions/' + champion + '.jpg', function (image) {
+      imgLoader.load('assets/textures/champions/' + skin, function (image) {
         texture.image      = image
         texture.needsUpdate = true
       })
 
-      objLoader.load('assets/models/champions/' + champion + '.obj', function (object) {
+      objLoader.load('assets/models/champions/' + champion, function (object) {
         object.traverse(function (child) {
           if (child instanceof THREE.Mesh) {
             child.material.map       = texture
-            //child.material.wireframe = true
+            // child.material.wireframe = true
             child.castShadow         = true
           }
         })
@@ -176,7 +179,7 @@ define([
         object.position.x = 0
         object.position.z = 0
 
-        object.scale.set(1, 1, 1)
+        object.scale.set(scale, scale, scale)
 
         viewer.data.scene.add(object)
       })
@@ -191,15 +194,26 @@ define([
       return this
     },
 
+    clear: function () {
+      var viewer = this
+
+      _.each(_.rest(viewer.data.scene.children, 1), function (object) {
+        viewer.data.scene.remove(object)
+      })
+
+      return this
+    },
+
     render: function () {
       this.data.renderer.render(this.data.scene, this.data.camera)
       return this
     },
 
     animate: function () {
-      var viewer = this
+      var viewer = this,
+          stats  = typeof this.options.stats === 'object'
 
-      // viewer.data.stats.begin()
+      stats && this.options.stats.begin()
 
       requestAnimationFrame(function () {
         return viewer.animate()
@@ -211,7 +225,7 @@ define([
 
       viewer.render()
 
-      // viewer.data.stats.end()
+      stats && this.options.stats.end()
 
       return this
     }
