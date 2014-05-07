@@ -34,8 +34,6 @@ define([
       animateCallbacks: []
     },
 
-    loader: null,
-
     initialize: function () {
       var viewer = this
 
@@ -50,8 +48,13 @@ define([
 
       viewer.data.manager = new THREE.LoadingManager()
 
-      viewer.data.manager.onProgress = function (item, loaded, total) { console.log(item, loaded, total) }
-      viewer.data.manager.onLoad     = function () { }
+      viewer.data.manager.onProgress = function () {
+        document.querySelectorAll('.loading-state')[0].classList.remove('hidden')
+      }
+
+      viewer.data.manager.onLoad = function () {
+        document.querySelectorAll('.loading-state')[0].classList.add('hidden')
+      }
 
       // Scene
       // -----
@@ -118,7 +121,7 @@ define([
       var loader, texture, material, geometry, mesh
       var viewer = this
 
-      loader  = new THREE.ImageLoader(viewer.manager)
+      loader  = new THREE.ImageLoader(viewer.data.manager)
       texture = new THREE.Texture()
 
       loader.load('assets/textures/ground/grass.jpg', function (image) {
@@ -158,8 +161,8 @@ define([
       viewer.addGround()
 
       texture   = new THREE.Texture()
-      imgLoader = new THREE.ImageLoader(viewer.manager)
-      objLoader = new OBJLoader(viewer.manager)
+      imgLoader = new THREE.ImageLoader(viewer.data.manager)
+      objLoader = new OBJLoader(viewer.data.manager)
 
       imgLoader.load('assets/textures/champions/' + skin, function (image) {
         texture.image      = image
