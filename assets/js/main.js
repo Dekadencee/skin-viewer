@@ -51,7 +51,7 @@ require([
   }
 
   // Retrieve champions
-  $.getJSON('/api/champions.json', function (json) {
+  $.getJSON('api/champions.json', function (json) {
     champions = json
     init()
   })
